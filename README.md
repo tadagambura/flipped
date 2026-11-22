@@ -2,7 +2,7 @@
 
 **Know your real profit from reselling**
 
-> #22 of 33 in the build order · Medium · Revenue potential: Medium · Money & Work
+> #17 of 33 · Wave 2: Recurring keepers · Used: Several times a week · Medium · Revenue potential: Medium · Money & Work
 
 ## What it is
 
@@ -55,6 +55,10 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Share | Monthly profit cards |
 | Next step | Set next month's profit goal |
 | Cadence | Several times a week |
+
+## AI
+
+**None.** Not needed. Plain code does everything this app does.
 
 ## Watch-outs
 
