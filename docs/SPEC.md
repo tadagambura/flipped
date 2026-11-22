@@ -1,48 +1,77 @@
 # Flipped: Spec
 
+**Know your real profit from reselling** · #22 of 33 in the build order · Medium · Revenue potential: Medium · Money & Work · Source: New (Claude)
+
 ## One-liner
 
-Know your real profit from reselling
+For Vinted, eBay and Depop sellers. Log what you paid, the fees, postage and what it sold for, and Flipped shows your real profit per item and per month, what's still unsold, and how close you are to the levels where platforms report sellers to HMRC.
 
 ## Problem / audience
 
-- Who it's for:
-- The problem it solves:
+- **Who it's for:** Casual and side-hustle resellers on Vinted, eBay, Depop and at car boot sales.
+- **The problem it solves:** Sellers don't know their real profit after fees and postage, and aren't sure about tax reporting.
+- **Example:** A seller logs 40 Vinted sales in a month, sees £310 real profit after postage, and spots five items that have sat unsold for 60 days.
 
 ## MVP features (ship with only these)
 
-1.
-2.
-3.
+1. Log items: cost, platform, fees, postage, sale price
+2. Profit per item and per month
+3. Unsold stock with days listed
+4. Reporting-threshold tracker (sales count and total; current rules to verify)
+5. Monthly recap
 
 ## Not in MVP
 
--
+- Export for self-assessment
+- Fee presets per platform
+- Bundle and job-lot tracking
 
 ## Monetisation
 
 | Model | Detail |
 |---|---|
-| Free tier | |
-| Paid | |
-| Ads | |
+| Free | Up to 30 items a month, with ads |
+| Premium | £2.99/month: unlimited items, exports, platform presets |
+| Ads | Light |
 
-## Platform & stack
+Prices are starting points; test before committing.
 
-- Platform: (web/PWA first unless there's a reason not to)
-- Stack:
-- Data: (local-only if possible)
+## Retention: The Progression Loop
 
-## Growth engine hooks
+| Stage | Design |
+|---|---|
+| Cue | 'Sold something?' prompt and month-end recap |
+| Tiny win | Log a sale |
+| Progress | Monthly profit and goal |
+| Share | Monthly profit cards |
+| Next step | Set next month's profit goal |
+| Cadence | Several times a week |
 
-- Shareable output (what users would post):
-- Content pillars:
+Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
+never wiped, at most one notification a day by default.
+
+## Platform & data
+
+- **Platform:** Expo app.
+- **Data:** On the device only.
+- **Stack:** shared portfolio foundation (Expo, PostHog, RevenueCat, AdMob, shared Progression Loop module).
+
+## Growth engine
+
+- **Content pillars:** Reselling tips; Real profit maths; Side-hustle tax basics
+- **Shareable output:** Monthly profit cards
+
+## Risks
+
+Tax wording must stay general and be checked against current HMRC guidance. Platform fees change.
 
 ## Launch checklist
 
+- [ ] Name checked on the App Store, Play Store and a trademark search
 - [ ] MVP features done and tested
-- [ ] Privacy policy + terms
+- [ ] Progression Loop wired (cue, tiny win, progress, milestone, next step)
+- [ ] Privacy policy and terms
 - [ ] Landing page
-- [ ] Analytics wired
+- [ ] Analytics wired (D1/D7/D30 retention)
 - [ ] Payments / ads wired
 - [ ] Added to growth-engine as an app config
