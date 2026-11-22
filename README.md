@@ -56,6 +56,13 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | Set next month's profit goal |
 | Cadence | Several times a week |
 
+## Animation and tone
+
+**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+
+- Profit counter ticks up after a sale
+
+
 ## AI
 
 **None.** Not needed. Plain code does everything this app does.
