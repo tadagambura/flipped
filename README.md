@@ -58,11 +58,15 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 | Next step | Set next month's profit goal |
 | Cadence | Several times a week |
 
-## Animation and tone
+## Animation and tone: five signature animations
 
-**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+**Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
-- Profit counter ticks up after a sale
+- Item sold: 'ka-ching!' and the item flips through the air
+- Profit goal hit: the stickman surfs a wave of parcels
+- Unsold for 60 days: the dusty item sneezes
+- Postage logged: the parcel waddles off to the post box
+- Monthly recap: the bar chart grows like a plant
 
 
 ## AI

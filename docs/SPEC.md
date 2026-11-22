@@ -50,11 +50,15 @@ Prices are starting points; test before committing. **Portfolio premium promise:
 Follow the portfolio guardrails: no guilt-trip notifications, no fake urgency, progress is
 never wiped, at most one notification a day by default.
 
-## Animation and tone
+## Animation and tone: five signature animations
 
-**Calm.** Smooth, reassuring motion only: gentle ticks, numbers easing into place. No characters, jokes or drama.
+**Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
-- Profit counter ticks up after a sale
+- Item sold: 'ka-ching!' and the item flips through the air
+- Profit goal hit: the stickman surfs a wave of parcels
+- Unsold for 60 days: the dusty item sneezes
+- Postage logged: the parcel waddles off to the post box
+- Monthly recap: the bar chart grows like a plant
 
 
 ## AI
