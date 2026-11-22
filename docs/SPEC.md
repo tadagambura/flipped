@@ -87,4 +87,4 @@ Tax wording must stay general and be checked against current HMRC guidance. Plat
 - [ ] Landing page
 - [ ] Analytics wired (D1/D7/D30 retention)
 - [ ] Payments / ads wired
-- [ ] Added to growth-engine as an app config
+- [ ] Added to the Growth & Maintenance Engine as an app config
