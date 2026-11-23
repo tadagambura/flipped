@@ -1,0 +1,600 @@
+{
+  "pack": "flipped-cards-1",
+  "version": 1,
+  "checked": "2026-11-23",
+  "reviewed": false,
+  "cards": [
+    {
+      "id": "c01",
+      "topic": "HMRC",
+      "title": "Platforms now report sellers to HMRC",
+      "body": "Selling platforms send HMRC details of their sellers each calendar year. You won't be reported if you make fewer than 30 sales AND receive less than €2,000 (about £1,700) on that platform. Hit either limit and you will be. Your details and quarterly totals (after the platform's fees) are reported, and you get a copy. Being reported doesn't automatically mean you owe tax.",
+      "quiz": {
+        "q": "You've made 35 small sales on one platform this year, totalling £400. Will you be reported?",
+        "options": [
+          "No, you're under £1,700",
+          "Yes, 30 or more sales is enough",
+          "Only if you also sell elsewhere"
+        ],
+        "answer": 1,
+        "explain": "You're only left out with fewer than 30 sales and under about £1,700. Reaching either limit means you're reported."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/selling-goods-or-services-on-a-digital-platform"
+      },
+      "tags": [
+        "hmrc",
+        "platform-reporting"
+      ]
+    },
+    {
+      "id": "c02",
+      "topic": "HMRC",
+      "title": "Clearing out or trading?",
+      "body": "Selling your own things, like clothes you've worn or old furniture, usually means no Income Tax to pay. It's different if you buy items to resell at a profit, or make things to sell, even as a hobby. That's probably trading, and if your trading income goes over the £1,000 trading allowance in a tax year, you need to tell HMRC.",
+      "quiz": {
+        "q": "You're selling clothes from your own wardrobe on Vinted. Usually, what's the tax position?",
+        "options": [
+          "Probably no Income Tax to pay",
+          "You must register as a business",
+          "You pay VAT on each sale"
+        ],
+        "answer": 0,
+        "explain": "Selling personal possessions usually isn't taxed as income. Buying to resell or making to sell is when it can become trading."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/check-if-you-need-to-tell-hmrc-about-your-income-from-online-platforms"
+      },
+      "tags": [
+        "hmrc",
+        "trading"
+      ]
+    },
+    {
+      "id": "c03",
+      "topic": "HMRC",
+      "title": "The £1,000 trading allowance",
+      "body": "For 2026/27 (6 April 2026 to 5 April 2027) you can have up to £1,000 of trading income tax-free. It's measured on your total sales before costs, not profit. Go over it and you must register for Self Assessment by 5 October after the tax year ends. If you use the allowance, you can't also deduct your expenses.",
+      "quiz": {
+        "q": "The £1,000 trading allowance is measured on…",
+        "options": [
+          "Your profit after costs",
+          "Only cash sales",
+          "Your total sales before costs"
+        ],
+        "answer": 2,
+        "explain": "It's gross income: the total before any expenses. £1,100 of sales is over the limit even if your profit is tiny."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/tax-free-allowances-on-property-and-trading-income"
+      },
+      "tags": [
+        "hmrc",
+        "trading-allowance"
+      ]
+    },
+    {
+      "id": "c04",
+      "topic": "HMRC",
+      "title": "Are you trading? HMRC's 'badges of trade'",
+      "body": "HMRC weighs signs called badges of trade to decide whether you're trading. They include: aiming to make a profit, how many sales you make, what the items are, whether you've done similar deals, whether you improved items before selling, how you sold, how you paid for them, how long you held them, and how you got them. No single sign decides it.",
+      "quiz": null,
+      "source": {
+        "name": "HMRC",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/business-income-manual/bim20205"
+      },
+      "tags": [
+        "hmrc",
+        "trading"
+      ]
+    },
+    {
+      "id": "c05",
+      "topic": "HMRC",
+      "title": "Register for Self Assessment by 5 October",
+      "body": "If you need to send a tax return for the first time, tell HMRC by 5 October after the tax year ends. For 2025/26 that was 5 October 2026. For 2026/27, which ends on 5 April 2027, it's 5 October 2027. Register late and you could get a penalty, so set a reminder now.",
+      "quiz": {
+        "q": "Your trading income first went over £1,000 in 2026/27. Register by…",
+        "options": [
+          "31 January 2027",
+          "6 April 2027",
+          "5 October 2027"
+        ],
+        "answer": 2,
+        "explain": "Registration is due by 5 October after the tax year ends. 2026/27 ends on 5 April 2027, so the deadline is 5 October 2027."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/register-for-self-assessment"
+      },
+      "tags": [
+        "hmrc",
+        "self-assessment"
+      ]
+    },
+    {
+      "id": "c06",
+      "topic": "Records",
+      "title": "Keep records from your first sale",
+      "body": "If you're trading, keep a record of every sale and keep receipts for the stock you buy, plus bank statements. Your records must be accurate and you must be able to tell which transactions are business ones. Hold on to them for at least 5 years after the 31 January deadline for that tax year. Logging each item as you go makes this painless.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/self-employed-records/print"
+      },
+      "tags": [
+        "hmrc",
+        "records"
+      ]
+    },
+    {
+      "id": "c07",
+      "topic": "Scams",
+      "title": "Payment emails: check the app, not your inbox",
+      "body": "Scammers send convincing emails that look like they're from eBay and other platforms, about sales, purchases or payments. Don't click their links or call the numbers in them. Open the app or log in yourself and check your orders and messages there. If it isn't in the app, don't post anything. Forward suspicious emails to report@phishing.gov.uk.",
+      "quiz": {
+        "q": "An email says a buyer has paid and you should post the item now. What do you do first?",
+        "options": [
+          "Post it straight away",
+          "Click the link to confirm",
+          "Check the sale in the app"
+        ],
+        "answer": 2,
+        "explain": "Log in to the platform yourself. Genuine sales and messages show up in your account, not just in an email."
+      },
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/news/article/scam-alert-watch-out-for-this-fake-ebay-transaction-email-aPbgz3m1y4R4"
+      },
+      "tags": [
+        "scams",
+        "phishing"
+      ]
+    },
+    {
+      "id": "c08",
+      "topic": "Scams",
+      "title": "Keep chat and payment on the platform",
+      "body": "Keep payment and messages inside the app. Taking a sale elsewhere, for example to a bank transfer or another chat app, can cancel the protection the platform gives you. Post only to the address on the order. If a buyer insists on a different address, cancel the sale and ask them to rebuy with the right one.",
+      "quiz": {
+        "q": "A buyer offers to pay by bank transfer to 'skip the fees'. Safest reply?",
+        "options": [
+          "Agree, it saves you both money",
+          "Say no and keep the sale in the app",
+          "Ask for a gift card instead"
+        ],
+        "answer": 1,
+        "explain": "Paying outside the platform can cancel your seller protection. Keep both payment and chat in the app."
+      },
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/reviews/shopping-sustainably/article/second-hand-shopping-online/how-to-sell-second-hand-online-aY8e54S9ikBH"
+      },
+      "tags": [
+        "scams",
+        "off-platform"
+      ]
+    },
+    {
+      "id": "c09",
+      "topic": "Scams",
+      "title": "Beat 'item not received' claims",
+      "body": "Some buyers claim a parcel never arrived. Protect yourself: photograph the item packed up, send it tracked, and keep all the tracking details as proof. Insure high-value parcels. If a problem comes up, reply quickly, because a slow response can cancel your seller protection, and send the platform your evidence.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/reviews/shopping-sustainably/article/second-hand-shopping-online/how-to-sell-second-hand-online-aY8e54S9ikBH"
+      },
+      "tags": [
+        "scams",
+        "postage"
+      ]
+    },
+    {
+      "id": "c10",
+      "topic": "Scams",
+      "title": "Never scan QR codes from emails",
+      "body": "Sellers have been sent fake QR codes by email, supposedly to verify their account or receive payment for a sale. Don't scan QR codes in emails: they can hide phishing links. If you do scan a code, check the web address that pops up matches what you expect. Use only the labels and payment screens inside the app.",
+      "quiz": {
+        "q": "An email asks you to scan a QR code to receive payment for your sale. What should you do?",
+        "options": [
+          "Don't scan it, and check the app",
+          "Scan it with your camera app",
+          "Forward it to the buyer"
+        ],
+        "answer": 0,
+        "explain": "Which? warns against scanning QR codes in emails because they can hide phishing links. Real payments show in the app."
+      },
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/news/article/quishing-scams-warning-how-to-spot-and-avoid-dodgy-qr-codes-asYsH0h6jjP1"
+      },
+      "tags": [
+        "scams",
+        "qr-codes",
+        "shipping-labels"
+      ]
+    },
+    {
+      "id": "c11",
+      "topic": "Scams",
+      "title": "'I paid too much, please send it back'",
+      "body": "A classic trick: a 'buyer' says they've overpaid and asks you to return the difference by bank transfer or another route outside the app. Don't. Keep payment within the marketplace, and if a refund is genuinely due, make it through the platform, never privately. Check your balance in the app itself, not in a screenshot or email.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/reviews/shopping-sustainably/article/second-hand-shopping-online/how-to-sell-second-hand-online-aY8e54S9ikBH"
+      },
+      "tags": [
+        "scams",
+        "overpayment"
+      ]
+    },
+    {
+      "id": "c12",
+      "topic": "Security",
+      "title": "Lock down your seller account",
+      "body": "Turn on 2-step verification for your selling apps and your email. It adds a code check on top of your password, which keeps criminals out even if they've stolen your password, for example through a data breach or a phishing email. It's recommended for important accounts like email, banking, social media and online shopping.",
+      "quiz": {
+        "q": "Why turn on 2-step verification?",
+        "options": [
+          "It keeps criminals out even if they know your password",
+          "It makes your listings rank higher",
+          "HMRC requires it"
+        ],
+        "answer": 0,
+        "explain": "Passwords get stolen through breaches and phishing. A second check means a stolen password alone isn't enough."
+      },
+      "source": {
+        "name": "National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/activate-2-step-verification-on-your-email"
+      },
+      "tags": [
+        "security",
+        "account-takeover"
+      ]
+    },
+    {
+      "id": "c13",
+      "topic": "Reporting",
+      "title": "Lost money to a scam? Report it",
+      "body": "If you've lost money, call your bank straight away. Then report it to Report Fraud, the national service that replaced Action Fraud in December 2025. Report online at reportfraud.police.uk or call 0300 123 2040. Report the buyer's account on the platform too, so they can act.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/government/news/report-fraud-new-service-from-city-of-london-police"
+      },
+      "tags": [
+        "scams",
+        "reporting",
+        "report-fraud"
+      ]
+    },
+    {
+      "id": "c14",
+      "topic": "Reporting",
+      "title": "Report scam texts and emails for free",
+      "body": "Got a dodgy text pretending to be a courier, a platform or a buyer? Forward it to 7726, free, so your phone provider can investigate and block the sender. If 7726 doesn't work, ask your phone provider how to report it. Then delete the message and don't reply.",
+      "quiz": {
+        "q": "Where should you forward a scam text message?",
+        "options": [
+          "999",
+          "7726",
+          "The number that sent it"
+        ],
+        "answer": 1,
+        "explain": "Forwarding to 7726 is free and lets your phone provider investigate and block the sender."
+      },
+      "source": {
+        "name": "National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-text-message"
+      },
+      "tags": [
+        "scams",
+        "reporting"
+      ]
+    },
+    {
+      "id": "c15",
+      "topic": "Profit",
+      "title": "Allowance or expenses? Pick the better one",
+      "body": "If you're trading, you can either take the £1,000 trading allowance or deduct your real business costs, but not both. Allowable costs include stock you bought to resell, a share of your phone bill and website costs. Goods you bought for your own use don't count. If your costs are over £1,000, claiming expenses usually leaves less to pay tax on.",
+      "quiz": {
+        "q": "Can you use the £1,000 trading allowance AND deduct your stock costs?",
+        "options": [
+          "Yes, both",
+          "Only for clothing",
+          "No, it's one or the other"
+        ],
+        "answer": 2,
+        "explain": "You either take the allowance or claim your actual expenses. Tracking your costs shows which one leaves you better off."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/expenses-if-youre-self-employed"
+      },
+      "tags": [
+        "profit",
+        "costs",
+        "hmrc"
+      ]
+    },
+    {
+      "id": "c16",
+      "topic": "HMRC",
+      "title": "Trading allowance could triple in 2027",
+      "body": "The government plans to raise the trading allowance from £1,000 to £3,000 from 6 April 2027, for the 2027/28 tax year onwards. The threshold for reporting trading income through Self Assessment would rise to £3,000 too. It isn't law yet: it needs to pass in the Finance Bill 2026-27. For 2026/27, the limit is still £1,000.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance"
+      },
+      "tags": [
+        "hmrc",
+        "trading-allowance"
+      ]
+    },
+    {
+      "id": "c17",
+      "topic": "Your rights",
+      "title": "Private seller or trader? The rules change",
+      "body": "When someone buys from a private individual on a marketplace, there's no 14-day cooling-off period, and you don't have to mention that. Businesses are different: online buyers can usually tell them within 14 days of delivery that they want to cancel, then have another 14 days to send it back. If you're trading, the business rules are yours.",
+      "quiz": null,
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/consumer/changed-your-mind/changing-your-mind-about-something-youve-bought/"
+      },
+      "tags": [
+        "consumer-rights",
+        "trader"
+      ]
+    },
+    {
+      "id": "c18",
+      "topic": "Your rights",
+      "title": "Selling as a business: returns and refunds",
+      "body": "As a trader, you must offer a full refund if an item is faulty, not as described, or doesn't work. Online buyers can cancel within 14 days of receiving an item without giving a reason, and you must refund them within 14 days of getting it back, including standard delivery. 'No refunds' notices aren't allowed.",
+      "quiz": {
+        "q": "You sell online as a trader. How long do buyers have to say they want to cancel?",
+        "options": [
+          "48 hours",
+          "14 days after receiving the item",
+          "They can't cancel"
+        ],
+        "answer": 1,
+        "explain": "Distance-selling buyers can cancel within 14 days of receiving their item, with no reason needed."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/accepting-returns-and-giving-refunds"
+      },
+      "tags": [
+        "consumer-rights",
+        "trader",
+        "returns"
+      ]
+    },
+    {
+      "id": "c19",
+      "topic": "Profit",
+      "title": "Price from real data, not hope",
+      "body": "Buyers usually pay less than you think something is worth. Before pricing, look at similar listings, and like a few so you're told when they sell. If an item hasn't sold after three or four weeks, rethink the price. Paid boosts can lift views, but views aren't sales, so test them before relying on them.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/news/article/expert-tips-for-buying-and-selling-on-vinted-ad7Pi9r6UddI"
+      },
+      "tags": [
+        "profit",
+        "pricing"
+      ]
+    },
+    {
+      "id": "c20",
+      "topic": "Profit",
+      "title": "Photos that sell (and protect you)",
+      "body": "Use your own photos, never stock images. Use plenty of them, including a full view, labels, true colours and close-ups of any flaws. Clear photos help buyers decide, and they're also your evidence if someone later claims a defect wasn't there when you sold it.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/reviews/shopping-sustainably/article/second-hand-shopping-online/how-to-sell-second-hand-online-aY8e54S9ikBH"
+      },
+      "tags": [
+        "profit",
+        "photos"
+      ]
+    },
+    {
+      "id": "c21",
+      "topic": "Scams",
+      "title": "Spot the pressure tricks",
+      "body": "Scam messages push your buttons. Watch for messages claiming authority (a platform, bank or courier), urgency (act within 24 hours), emotion (panic or excitement), scarcity (a deal that won't last) or links to news and tax deadlines. Pause, then contact the company using details from its official website or app, not the ones in the message.",
+      "quiz": null,
+      "source": {
+        "name": "National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/phishing-scams/spot-scams"
+      },
+      "tags": [
+        "scams",
+        "phishing"
+      ]
+    },
+    {
+      "id": "c22",
+      "topic": "Security",
+      "title": "Account hacked? Act fast",
+      "body": "Signs include not being able to log in, changed security settings or activity you don't recognise. Use the platform's help pages to recover it. Change the password there and anywhere you've reused it, log out other devices, check your email for forwarding rules you didn't set up, and turn on 2-step verification. If you've lost money, tell your bank and report it to Report Fraud (or call 101 in Scotland).",
+      "quiz": null,
+      "source": {
+        "name": "National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+      },
+      "tags": [
+        "security",
+        "account-takeover",
+        "reporting"
+      ]
+    },
+    {
+      "id": "c23",
+      "topic": "Records",
+      "title": "How long to keep your records",
+      "body": "Keep your business records for at least 5 years after the 31 January online filing deadline for that tax year. So for 2026/27, filed by 31 January 2028, keep them until at least the end of January 2033. HMRC may ask to see them to check you've paid the right tax.",
+      "quiz": {
+        "q": "Your 2026/27 tax return is due by 31 January 2028. Keep records until at least…",
+        "options": [
+          "You can bin them once filed",
+          "The end of January 2029",
+          "The end of January 2033"
+        ],
+        "answer": 2,
+        "explain": "Records must be kept for at least 5 years after the 31 January deadline, so January 2028 plus 5 years is January 2033."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/self-employed-records/how-long-to-keep-your-records"
+      },
+      "tags": [
+        "hmrc",
+        "records"
+      ]
+    },
+    {
+      "id": "c24",
+      "topic": "HMRC",
+      "title": "Selling something worth £6,000 or more",
+      "body": "If you sell a personal possession for £6,000 or more and make a profit on it, you may have to pay Capital Gains Tax. Sets of things, like matching vases, count together. Cars are usually exempt, and so are items with a limited lifespan, such as clocks, unless used in a business. Most everyday reselling never gets near this.",
+      "quiz": null,
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/capital-gains-tax-personal-possessions"
+      },
+      "tags": [
+        "hmrc",
+        "capital-gains"
+      ]
+    },
+    {
+      "id": "c25",
+      "topic": "HMRC",
+      "title": "Making Tax Digital: when it reaches you",
+      "body": "Making Tax Digital for Income Tax applies to sole traders and landlords in Self Assessment, using compatible software. It depends on your qualifying income from self-employment and property, before expenses. Over £50,000 in 2024/25 meant starting from 6 April 2026. Over £30,000 in 2025/26 means 6 April 2027, and over £20,000 in 2026/27 means 6 April 2028.",
+      "quiz": {
+        "q": "Your reselling sales were £35,000 before costs in 2025/26. When does Making Tax Digital start for you?",
+        "options": [
+          "6 April 2027",
+          "Never, it's only for companies",
+          "6 April 2028"
+        ],
+        "answer": 0,
+        "explain": "Qualifying income over £30,000 in 2025/26 means using Making Tax Digital from 6 April 2027."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax"
+      },
+      "tags": [
+        "hmrc",
+        "mtd"
+      ]
+    },
+    {
+      "id": "c26",
+      "topic": "Profit",
+      "title": "Postage can quietly eat your profit",
+      "body": "If the platform lets you set postage, get it as accurate as you can. Too cheap and the difference comes out of your profit; too expensive and buyers scroll past. Weigh and measure items before listing, and check the platform's own rules on how quickly and how you must post. Count packaging and fees when you work out real profit.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/reviews/shopping-sustainably/article/second-hand-shopping-online/how-to-sell-second-hand-online-aY8e54S9ikBH"
+      },
+      "tags": [
+        "profit",
+        "postage",
+        "fees"
+      ]
+    },
+    {
+      "id": "c27",
+      "topic": "Profit",
+      "title": "Bundle the small stuff",
+      "body": "Low-value items like baby clothes often sell faster as a bundle than one at a time. Bundling also means fewer parcels to pack and post. List seasonal things when the weather suits them, such as shorts and swimwear in summer, and hold winter coats back until it turns cold.",
+      "quiz": null,
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/news/article/10-quick-ways-to-make-money-in-june-aWleZ3h5mSSa"
+      },
+      "tags": [
+        "profit",
+        "bundling",
+        "timing"
+      ]
+    },
+    {
+      "id": "c28",
+      "topic": "Profit",
+      "title": "List little and often",
+      "body": "Rather than uploading everything at once, list a few items regularly so they keep appearing in buyers' feeds. Paydays and weekends are good times to list. Use a square crop so clothes aren't cut off in the feed, and add details buyers care about, like fit and how often you wore it.",
+      "quiz": {
+        "q": "When does Which?'s Vinted expert suggest listing?",
+        "options": [
+          "Everything at once, once a year",
+          "Little and often, around paydays and weekends",
+          "Only late at night"
+        ],
+        "answer": 1,
+        "explain": "Listing a few items regularly keeps you in buyers' feeds, and paydays and weekends tend to be busier."
+      },
+      "source": {
+        "name": "Which?",
+        "url": "https://www.which.co.uk/news/article/expert-tips-for-buying-and-selling-on-vinted-ad7Pi9r6UddI"
+      },
+      "tags": [
+        "profit",
+        "timing"
+      ]
+    },
+    {
+      "id": "c29",
+      "topic": "Your rights",
+      "title": "Describe it honestly",
+      "body": "Even as a private seller, the item must match your description. If it doesn't, the buyer can complain and ask you to make up the difference in value. So be precise about size, condition, wear and any faults, and photograph flaws. An honest listing means fewer disputes, fewer returns and better reviews.",
+      "quiz": null,
+      "source": {
+        "name": "Citizens Advice",
+        "url": "https://www.citizensadvice.org.uk/consumer/template-letters/letters/consumer-template-letters/letter-to-complain-about-misdescribed-goods-including-cars-bought-from-a-private-seller/"
+      },
+      "tags": [
+        "consumer-rights",
+        "returns"
+      ]
+    },
+    {
+      "id": "c30",
+      "topic": "HMRC",
+      "title": "The 31 January double deadline",
+      "body": "If you're in Self Assessment, your online tax return and any tax you owe are both due by 11:59pm on 31 January after the tax year. For 2025/26 that's 31 January 2027. Paper returns are due earlier, by 31 October. Put a little aside from each sale so the bill isn't a shock.",
+      "quiz": {
+        "q": "For the 2025/26 tax year, when is your online return due?",
+        "options": [
+          "31 January 2027",
+          "5 October 2026",
+          "6 April 2027"
+        ],
+        "answer": 0,
+        "explain": "Online returns and payment are both due by 31 January after the tax year ends, so 31 January 2027."
+      },
+      "source": {
+        "name": "GOV.UK",
+        "url": "https://www.gov.uk/self-assessment-tax-returns/deadlines"
+      },
+      "tags": [
+        "hmrc",
+        "self-assessment"
+      ]
+    }
+  ]
+}

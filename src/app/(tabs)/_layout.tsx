@@ -17,6 +17,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="index" options={{ title: 'Profit', tabBarIcon: ({ color, size }) => <Ionicons name="trending-up-outline" color={color as string} size={size} /> }} />
       <Tabs.Screen name="stock" options={{ title: 'Stock', tabBarIcon: ({ color, size }) => <Ionicons name="cube-outline" color={color as string} size={size} /> }} />
       <Tabs.Screen name="sold" options={{ title: 'Sold', tabBarIcon: ({ color, size }) => <Ionicons name="pricetag-outline" color={color as string} size={size} /> }} />
+      <Tabs.Screen name="learn" options={{ title: 'Learn', tabBarIcon: ({ color, size }) => <Ionicons name="school-outline" color={color as string} size={size} /> }} />
       <Tabs.Screen name="settings" options={{ title: 'Settings', tabBarIcon: ({ color, size }) => <Ionicons name="settings-outline" color={color as string} size={size} /> }} />
     </Tabs>
   );
