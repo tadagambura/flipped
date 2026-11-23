@@ -2,7 +2,7 @@
 
 **Know your real profit from reselling**
 
-> #7 of 15 · Wave 1: Daily keepers · Used: Several times a week · Medium · Revenue potential: Medium · Money & Work
+> #7 of 17 · Wave 1: Daily keepers · Used: Several times a week · Medium · Revenue potential: Medium · Money & Work
 
 ## What it is
 
@@ -83,5 +83,5 @@ Planning. The build spec is in [`docs/SPEC.md`](docs/SPEC.md).
 
 ---
 
-Part of a portfolio of 15 small consumer apps that share one codebase, one retention module
+Part of a portfolio of 17 small consumer apps that share one codebase, one retention module
 and one marketing and upkeep system ([growth-maintenance-engine](https://github.com/tadagambura/growth-maintenance-engine)).
