@@ -1,6 +1,6 @@
 # Flipped: Spec
 
-**Know your real profit from reselling** · #7 of 15 · Wave 1: Daily keepers · Used: Several times a week · Medium · Revenue potential: Medium · Money & Work · Source: New (Claude)
+**Know your real profit from reselling** · #7 of 17 · Wave 1: Daily keepers · Used: Several times a week · Medium · Revenue potential: Medium · Money & Work · Source: New (Claude)
 
 ## One-liner
 
