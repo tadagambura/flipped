@@ -39,7 +39,7 @@ Casual and side-hustle resellers on Vinted, eBay, Depop and at car boot sales.
 | Model | Detail |
 |---|---|
 | Free | Up to 30 items a month, with ads |
-| Premium | £2.99/month: unlimited items, exports, platform presets |
+| Premium | £24.99/year (shown first) or £3.49/month: unlimited items, exports, platform presets |
 | Ads | Light |
 
 **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
