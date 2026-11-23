@@ -5,7 +5,7 @@ export const brand: Brand = {
   name: 'Flipped',
   tagline: 'Know your real profit from reselling',
   fonts: { display: 'SpaceGrotesk_700Bold' },
-  defaultTheme: 'teal',
+  defaultTheme: 'brown',
   radius: 10,
   light: {
     bg: '#F4F7F6',
@@ -39,10 +39,6 @@ export const brand: Brand = {
     danger: '#FF8A80',
     focus: '#2DD4BF',
   },
-  plans: [
-    { id: 'yearly', label: 'Yearly', price: '£24.99 a year', note: 'Best value: about £2.08 a month' },
-    { id: 'monthly', label: 'Monthly', price: '£3.49 a month' },
-  ],
   premiumPerks: ['Unlimited items (free logs 30 a month)', 'CSV export for your records or accountant', 'Platform fee presets kept up to date', 'No ads, ever'],
   privacyUrl: 'https://kaoticchainz.com/privacy',
   termsUrl: 'https://kaoticchainz.com/terms',
