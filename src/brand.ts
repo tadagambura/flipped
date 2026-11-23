@@ -1,0 +1,51 @@
+import type { Brand } from '@/kit/theme';
+
+export const brand: Brand = {
+  slug: 'flipped',
+  name: 'Flipped',
+  tagline: 'Know your real profit from reselling',
+  fonts: { display: 'SpaceGrotesk_700Bold' },
+  radius: 10,
+  light: {
+    bg: '#F4F7F6',
+    surface: '#FFFFFF',
+    surfaceAlt: '#E3ECE9',
+    text: '#0E1A17',
+    textMuted: '#4E5F5A',
+    border: '#D3DEDA',
+    primary: '#0F766E',
+    primaryText: '#FFFFFF',
+    accent: '#FF6B4A',
+    accentText: '#160603',
+    success: '#0F766E',
+    warning: '#9A5B00',
+    danger: '#B3261E',
+    focus: '#0F766E',
+  },
+  dark: {
+    bg: '#0C1311',
+    surface: '#14201D',
+    surfaceAlt: '#1D2C28',
+    text: '#E8F1EE',
+    textMuted: '#9DB1AB',
+    border: '#2A3B36',
+    primary: '#2DD4BF',
+    primaryText: '#04201C',
+    accent: '#FF8A6E',
+    accentText: '#160603',
+    success: '#2DD4BF',
+    warning: '#F3B44C',
+    danger: '#FF8A80',
+    focus: '#2DD4BF',
+  },
+  plans: [
+    { id: 'yearly', label: 'Yearly', price: '£24.99 a year', note: 'Best value: about £2.08 a month' },
+    { id: 'monthly', label: 'Monthly', price: '£3.49 a month' },
+  ],
+  premiumPerks: ['Unlimited items (free logs 30 a month)', 'CSV export for your records or accountant', 'Platform fee presets kept up to date', 'No ads, ever'],
+  privacyUrl: 'https://kaoticchainz.com/privacy',
+  termsUrl: 'https://kaoticchainz.com/terms',
+  supportEmail: 'hello@kaoticchainz.com',
+};
+
+export const FREE_ITEMS_PER_MONTH = 30;
