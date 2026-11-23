@@ -5,6 +5,7 @@ export const brand: Brand = {
   name: 'Flipped',
   tagline: 'Know your real profit from reselling',
   fonts: { display: 'SpaceGrotesk_700Bold' },
+  defaultTheme: 'teal',
   radius: 10,
   light: {
     bg: '#F4F7F6',

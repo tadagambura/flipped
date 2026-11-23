@@ -14,43 +14,83 @@ import { usePremium } from './premium';
 import { disableReminder, enableDailyReminder, reminderError, remindersSupported } from './reminders';
 import { TEST_MODE } from './Root';
 import { useTheme } from './theme';
+import { palettesFor, THEMES } from './themes';
+import { Pressable, Text, View } from 'react-native';
 import { Body, Card, Chip, Divider, H1, ListRow, Muted, Row, Screen, Section, Toggle } from './ui';
 
 const HOURS = [7, 8, 9, 12, 17, 19, 21];
+const WEEKDAYS = [
+  { n: 2, label: 'Mon' },
+  { n: 3, label: 'Tue' },
+  { n: 4, label: 'Wed' },
+  { n: 5, label: 'Thu' },
+  { n: 6, label: 'Fri' },
+  { n: 7, label: 'Sat' },
+  { n: 1, label: 'Sun' },
+];
 const label = (h: number) => (h === 12 ? '12pm' : h < 12 ? `${h}am` : `${h - 12}pm`);
 
-export function KitSettings({ children, reminder, onDataDeleted }: { children?: ReactNode; reminder?: { title: string; body: string; explain: string }; onDataDeleted?: () => void }) {
-  const { brand } = useTheme();
+export function KitSettings({ children, reminder, onDataDeleted }: { children?: ReactNode; reminder?: { title: string; body: string; explain: string; weekly?: boolean }; onDataDeleted?: () => void }) {
+  const { brand, themeId, c } = useTheme();
   const { isPremium, mode, restore, cancelTest } = usePremium();
   const { toast, confirm } = useFeedback();
-  const prefs = prefsStore(brand.slug)();
+  const usePrefs = prefsStore(brand.slug);
+  const prefs = usePrefs();
   const [paywall, setPaywall] = useState(false);
   const [showDebug, setShowDebug] = useState(false);
   const version = Constants.expoConfig?.version ?? '1.0.0';
   const reminderId = `${brand.slug}-daily`;
 
-  const setReminder = async (on: boolean, hour = prefs.reminder.hour) => {
+  const weekday = reminder?.weekly ? (prefs.reminder.weekday ?? 6) : undefined;
+  const setReminder = async (on: boolean, hour = prefs.reminder.hour, day = weekday) => {
     if (!reminder) return;
     if (!on) {
       await disableReminder(reminderId);
       prefs.setReminder({ on: false });
       return;
     }
-    const r = await enableDailyReminder({ id: reminderId, hour, minute: 0, title: reminder.title, body: reminder.body });
+    const r = await enableDailyReminder({ id: reminderId, hour, minute: 0, title: reminder.title, body: reminder.body, weekday: day });
     const err = reminderError(r);
     if (err) {
       toast(err);
       prefs.setReminder({ on: false });
       return;
     }
-    prefs.setReminder({ on: true, hour });
-    toast(`Reminder set for ${label(hour)} each day.`);
+    prefs.setReminder({ on: true, hour, weekday: day });
+    const dayName = WEEKDAYS.find((w) => w.n === day)?.label;
+    toast(day != null ? `Reminder set for ${dayName}s at ${label(hour)}.` : `Reminder set for ${label(hour)} each day.`);
   };
 
   return (
     <Screen testID="settings">
       <H1>Settings</H1>
       {children}
+
+      <Section title="Theme">
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10 }} accessibilityRole="radiogroup" accessibilityLabel="Theme">
+          {[{ id: 'original', name: 'Original' }, ...THEMES].map((t) => {
+            const pal = t.id === 'original' ? brand.light : palettesFor(t.id)!.light;
+            const on = themeId === t.id;
+            return (
+              <Pressable
+                key={t.id}
+                accessibilityRole="radio"
+                aria-checked={on}
+                accessibilityState={{ checked: on }}
+                accessibilityLabel={`${t.name}${t.id === brand.defaultTheme ? ' (default)' : ''}`}
+                onPress={() => prefs.setTheme(t.id === brand.defaultTheme ? undefined : t.id)}
+                testID={`theme-${t.id}`}
+                style={{ alignItems: 'center', width: 64, gap: 4 }}
+              >
+                <View style={{ width: 44, height: 44, borderRadius: 22, backgroundColor: pal.primary, borderWidth: on ? 4 : 2, borderColor: on ? c.text : pal.accent }} />
+                <Text style={{ fontSize: 11, color: c.textMuted, textAlign: 'center' }} numberOfLines={1}>
+                  {t.name}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
+      </Section>
 
       <Section title="Premium">
         <Card>
@@ -76,7 +116,14 @@ export function KitSettings({ children, reminder, onDataDeleted }: { children?: 
       {reminder ? (
         <Section title="Reminder">
           <Card>
-            <Toggle label="Daily reminder" hint={reminder.explain} value={prefs.reminder.on} onChange={(v) => setReminder(v)} testID="settings-reminder" />
+            <Toggle label={reminder.weekly ? 'Weekly reminder' : 'Daily reminder'} hint={reminder.explain} value={prefs.reminder.on} onChange={(v) => setReminder(v)} testID="settings-reminder" />
+            {prefs.reminder.on && reminder.weekly ? (
+              <Row wrap gap={8}>
+                {WEEKDAYS.map((w) => (
+                  <Chip key={w.n} label={w.label} selected={weekday === w.n} onPress={() => setReminder(true, prefs.reminder.hour, w.n)} />
+                ))}
+              </Row>
+            ) : null}
             {prefs.reminder.on ? (
               <Row wrap gap={8}>
                 {HOURS.map((h) => (
