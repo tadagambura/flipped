@@ -39,7 +39,9 @@ Casual and side-hustle resellers on Vinted, eBay, Depop and at car boot sales.
 | Model | Detail |
 |---|---|
 | Free | Up to 30 items a month, with ads |
-| Premium | £24.99/year (shown first) or £3.49/month: unlimited items, exports, platform presets |
+| Premium | £34.99/year (shown first) or £3.49/month: unlimited items, exports, platform presets, every Arcade game in the app |
+| Arcade games | £0.99 each, kept forever, or every game in the app with Premium |
+| KC All Access | £25 once (every Arcade game in every KC app, kept forever) plus £7.99/month or £79.99/year (Premium in every KC app). Needs a free KC account. |
 | Ads | Light |
 
 **Portfolio premium promise:** free has ads; the moment you pay you get no ads, cloud backup and storage, and sync across your devices, plus this app's extras.
@@ -63,7 +65,7 @@ Built on **The Progression Loop**, the portfolio's shared retention framework
 **Calm.** Gentle, kind humour and smooth motion: a stickman yawning after a shift, a fly escaping an empty pocket. No drama, nothing that adds stress.
 
 - Item sold: 'ka-ching!' and the item flips through the air
-- Profit goal hit: the stickman surfs a wave of parcels
+- Profit goal hit: Kaos surfs a wave of parcels
 - Unsold for 60 days: the dusty item sneezes
 - Postage logged: the parcel waddles off to the post box
 - Monthly recap: the bar chart grows like a plant
