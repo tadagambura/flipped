@@ -120,7 +120,7 @@
       "name": "Reseller Word",
       "emoji": "🔤",
       "mechanic": "word",
-      "tier": "arcade_subscription",
+      "tier": "arcade",
       "how": "Guess the five-letter reselling word in six tries.",
       "teaches": "The language of the resale game.",
       "seconds": 45,
