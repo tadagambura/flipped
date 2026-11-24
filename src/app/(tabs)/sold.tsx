@@ -1,4 +1,5 @@
 import { router } from 'expo-router';
+import { AdBanner } from '@/kit/ads';
 import { formatDay } from '@/kit/dates';
 import { formatGBP } from '@/kit/money';
 import { Card, EmptyState, H1, Muted, Row, Screen, Section, Stack, Strong } from '@/kit/ui';
@@ -10,7 +11,7 @@ export default function Sold() {
   const sold = items.filter((i) => i.sold).sort((a, b) => (a.sold!.day < b.sold!.day ? 1 : -1));
   const months = [...new Set(sold.map((i) => i.sold!.day.slice(0, 7)))];
   return (
-    <Screen testID="sold">
+    <Screen testID="sold" banner={<AdBanner placement="sold_banner" />}>
       <H1>Sold</H1>
       {sold.length === 0 ? <EmptyState icon="pricetag-outline" title="No sales yet" body="When something sells, open it in Stock and tap 'Mark as sold'." /> : null}
       {months.map((m) => {
