@@ -9,6 +9,8 @@ import { useTheme } from '@/kit/theme';
 import { Body, Button, Card, EmptyState, H1, H2, Label, Muted, Note, ProgressBar, Row, Screen, Section, Sheet, Stack, Stat, Strong } from '@/kit/ui';
 import { monthSummary, platformLabel, recentMonths, REPORT_APPROX_GBP, REPORT_SALES, reportingStatus, taxYearOf, tradingIncome, TRADING_ALLOWANCE } from '@/domain/resale';
 import { useItems } from '@/state/items';
+import '@/arcade';
+import { ArcadeEntry } from '@/kit/arcade/screens';
 
 function Bars({ data }: { data: { label: string; value: Pence }[] }) {
   const { c, font } = useTheme();
@@ -115,6 +117,7 @@ export default function Profit() {
           {goal ? <Button title="Remove goal" variant="ghost" onPress={() => { setGoal(null); setGoalSheet(false); }} /> : null}
         </Stack>
       </Sheet>
+      <ArcadeEntry />
     </Screen>
   );
 }

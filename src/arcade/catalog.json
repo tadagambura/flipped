@@ -1,0 +1,134 @@
+{
+  "app": "flipped",
+  "title": "Reseller Arcade",
+  "emoji": "📦",
+  "currency": {
+    "name": "Profit points",
+    "one": "profit point",
+    "emoji": "📦"
+  },
+  "unlocks": "seller badges, shop themes and reseller achievements",
+  "games": [
+    {
+      "id": "profit-or-loss",
+      "name": "Profit or Loss?",
+      "emoji": "💹",
+      "mechanic": "quiz",
+      "tier": "free",
+      "how": "Work out what this fictional flip really made after fees and postage.",
+      "teaches": "Profit is what's left after every cost, not the sale price.",
+      "seconds": 45,
+      "flagship": true,
+      "pack": {
+        "file": "flipped/profit-or-loss.f3938b7d92.json",
+        "sha256": "f3938b7d92897c0bb1f34335e119623914e6c76b31719e11c6cc46f225a1d024",
+        "bytes": 1290
+      }
+    },
+    {
+      "id": "scam-spotter",
+      "name": "Scam Spotter",
+      "emoji": "🚨",
+      "mechanic": "sort",
+      "tier": "free",
+      "how": "Legit buyer, or scam? Sort it before you get stung.",
+      "teaches": "The common reseller scams, so you never fall for them.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/scam-spotter.6d1c5e34bc.json",
+        "sha256": "6d1c5e34bc9daee17464a9c338cf87c8a180b82a06723215f0a2ed600b817e67",
+        "bytes": 1005
+      }
+    },
+    {
+      "id": "shipping-sprint",
+      "name": "Shipping Sprint",
+      "emoji": "🚚",
+      "mechanic": "quiz",
+      "tier": "free",
+      "how": "Pick the cheapest option that actually fits. Prices here are made up for the game.",
+      "teaches": "Check size and weight before you price, or postage eats your profit.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/shipping-sprint.b8c8c5e60a.json",
+        "sha256": "b8c8c5e60ad7c391b20d4e108e453a0fe4ac8876a5446c5b8596b840d29cacc6",
+        "bytes": 1082
+      }
+    },
+    {
+      "id": "fee-frenzy",
+      "name": "Fee Frenzy",
+      "emoji": "🧮",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Quick fee maths on made-up fee rates. Beat the clock.",
+      "teaches": "Fees are a percentage of every sale. Know them before you price.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/fee-frenzy.920c2cb278.json",
+        "sha256": "920c2cb27872555665ffff149552686bbb3dad26da598c37428b319e1480532f",
+        "bytes": 656
+      }
+    },
+    {
+      "id": "bargain-hunter",
+      "name": "Bargain Hunter",
+      "emoji": "🏷️",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Which made-up listing is the real bargain, compared with recent sold prices?",
+      "teaches": "Price from what things SOLD for, not what they're listed at.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/bargain-hunter.a6713b13ca.json",
+        "sha256": "a6713b13ca5eb619efd9c4eb56bb6c26f2c9b3376f0e79bdfcf2d17bc7248ead",
+        "bytes": 926
+      }
+    },
+    {
+      "id": "hmrc-check",
+      "name": "HMRC Check",
+      "emoji": "🏛️",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Quick questions on the UK tax rules for selling online.",
+      "teaches": "Stay on the right side of HMRC as a reseller. UK rules, 2026.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/hmrc-check.0f7da842fa.json",
+        "sha256": "0f7da842fa6c5653f15984c158a960e4ee0dd8f4833704130d19a88c7155c1ab",
+        "bytes": 1074
+      }
+    },
+    {
+      "id": "listing-steps",
+      "name": "Flip It Fast",
+      "emoji": "📸",
+      "mechanic": "order",
+      "tier": "arcade",
+      "how": "Put the selling steps in the order that sells fastest.",
+      "teaches": "Good process sells items faster and with fewer returns.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/listing-steps.57ba1c877e.json",
+        "sha256": "57ba1c877eca3eaa16519f6d700b2516a7c5a7afa876124bdfb830641a9d5e57",
+        "bytes": 463
+      }
+    },
+    {
+      "id": "reseller-word",
+      "name": "Reseller Word",
+      "emoji": "🔤",
+      "mechanic": "word",
+      "tier": "arcade_subscription",
+      "how": "Guess the five-letter reselling word in six tries.",
+      "teaches": "The language of the resale game.",
+      "seconds": 45,
+      "pack": {
+        "file": "flipped/reseller-word.28ae72ec8e.json",
+        "sha256": "28ae72ec8e2611fac5d8159b9f62eb2a8e75a79effe3964742496d096cfb3130",
+        "bytes": 541
+      }
+    }
+  ]
+}
