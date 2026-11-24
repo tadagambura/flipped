@@ -1,4 +1,5 @@
 import { router } from 'expo-router';
+import { AdBanner } from '@/kit/ads';
 import { todayKey } from '@/kit/dates';
 import { formatGBP } from '@/kit/money';
 import { Button, Card, EmptyState, H1, Muted, Row, Screen, Stack, Strong } from '@/kit/ui';
@@ -13,7 +14,7 @@ export default function Stock() {
   const unsold = items.filter((i) => !i.sold).sort((a, b) => daysListed(b, today) - daysListed(a, today));
   const tiedUp = unsold.reduce((s, i) => s + i.cost, 0);
   return (
-    <Screen testID="stock">
+    <Screen testID="stock" banner={<AdBanner placement="stock_banner" />}>
       <H1>Stock</H1>
       {unsold.length ? <Muted testID="stock-summary">{`${unsold.length} unsold · ${formatGBP(tiedUp, { whole: true })} tied up`}</Muted> : null}
       <Button title="Add an item" icon="add" onPress={add} testID="stock-add" />
